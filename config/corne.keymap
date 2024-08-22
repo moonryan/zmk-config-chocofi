@@ -30,7 +30,7 @@
             bindings = <
 &none  &kp Q           &kp W           &kp F             &kp P               &kp B      &kp J    &kp L                &kp U              &kp Y            &kp SEMICOLON    &none
 &none  &mt LEFT_GUI A  &mt LEFT_ALT R  &mt LEFT_SHIFT S  &mt LEFT_CONTROL T  &kp G      &kp M    &mt RIGHT_CONTROL N  &mt RIGHT_SHIFT E  &mt RIGHT_ALT I  &mt RIGHT_GUI O  &none
-&none  &kp Z           &kp X           &kp C             &kp D               &kp V      &kp K    &kp M                &kp COMMA          &kp DOT          &kp FSLH         &none
+&none  &kp Z           &kp X           &kp C             &kp D               &kp V      &kp K    &kp H                &kp COMMA          &kp DOT          &kp FSLH         &none
                                        &mo 2             &kp SPACE           &kp TAB    &kp RET  &kp BACKSPACE        &mo 3
             >;
         };
