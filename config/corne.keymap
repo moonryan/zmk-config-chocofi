@@ -7,10 +7,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 
-
-&mt {
-    tapping-term-ms = <175>;
-};
+&mt { tapping-term-ms = <175>; };
 
 / {
     combos {
@@ -32,8 +29,6 @@
             tapping-term-ms = <175>;
         };
     };
-
-
 
     keymap {
         compatible = "zmk,keymap";
@@ -67,7 +62,7 @@
 &trans  &trans        &kp LS(AT)    &kp LS(POUND)  &kp LS(DLLR)  &trans             &trans        &kp LS(AMPS)  &kp LS(STAR)  &kp LS(CARET)  &trans   &trans
 &trans  &kp LS(EXCL)  &kp LS(PLUS)  &kp LS(LPAR)   &kp LS(RPAR)  &kp LS(TILDE)      &kp LS(PIPE)  &kp MINUS     &kp EQUAL     &kp LS(UNDER)  &kp SQT  &trans
 &trans  &kp DEL       &kp BSLH      &kp LS(LBRC)   &kp LS(RBRC)  &kp PRINTSCREEN    &kp GRAVE     &kp LBKT      &kp RBKT      &kp LS(PRCNT)  &trans   &trans
-                                    &trans         &trans        &trans             &trans        &trans        &trans
+                                    &trans         &trans        &trans             &trans        &trans        &mo 4
             >;
         };
 
@@ -76,7 +71,7 @@
 &trans  &trans  &kp INSERT  &kp PAGE_UP  &kp PAGE_DOWN  &trans    &trans  &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
 &trans  &kp N1  &kp N2      &kp N3       &kp N4         &kp N5    &kp N6  &kp N7          &kp N8        &kp N9          &kp N0           &trans
 &trans  &trans  &trans      &trans       &trans         &trans    &trans  &kp CAPSLOCK    &kp HOME      &kp END         &trans           &trans
-                            &trans       &trans         &trans    &trans  &trans          &trans
+                            &mo 4        &trans         &trans    &trans  &trans          &trans
             >;
         };
 
