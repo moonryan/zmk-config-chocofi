@@ -7,6 +7,11 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 
+
+&mt {
+    tapping-term-ms = <175>;
+};
+
 / {
     combos {
         compatible = "zmk,combos";
@@ -28,11 +33,7 @@
         };
     };
 
-    // this is the area
 
-    &mt {
-    tapping-term-ms = <175>;
-    };
 
     keymap {
         compatible = "zmk,keymap";
