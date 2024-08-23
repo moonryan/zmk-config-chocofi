@@ -28,6 +28,12 @@
         };
     };
 
+    // this is the area
+
+    &mt {
+    tapping-term-ms = <175>;
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
