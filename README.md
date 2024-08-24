@@ -1,5 +1,5 @@
 Current Keyboard:
-- Chocofi 36 Key Layout
+- [Chocofi]([url](https://github.com/pashutk/chocofi)) (36 Keys)
 - Sunset Tactile Choc Switches
 - nice!nano v2
 
