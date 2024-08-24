@@ -9,7 +9,7 @@
 
 &mt {
     tapping-term-ms = <175>;
-    flavor = "tap-preffered";
+    flavor = "tap-preferred";
 };
 
 / {
