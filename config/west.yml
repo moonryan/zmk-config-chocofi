@@ -3,16 +3,14 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
     - name: gpeye                         # https://github.com/GPeye/urchin-peripheral-animation?tab=readme-ov-file#usage
-      url-base: https://github.com/GPeye  # new entry
-    # Additional modules containing boards/shields/custom code can be listed here as well
-    # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
+      url-base: https://github.com/GPeye
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: urchin-peripheral-animation   #new entry
-      remote: gpeye                       #new entry
-      revision: main                      #new entry
+    - name: urchin-peripheral-animation
+      remote: gpeye
+      revision: main
   self:
     path: config
