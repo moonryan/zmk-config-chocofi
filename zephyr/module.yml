@@ -1,3 +1,4 @@
+# urchin animation from https://github.com/GPeye/urchin-peripheral-animation?tab=readme-ov-file
 name: 'zmk-shield-nice!view-custom'
 build:
   settings:
